@@ -1,0 +1,122 @@
+/*
+Theme Name: OverView
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+header#masthead {
+    text-align: left;
+}
+
+header#masthead #site-navigation{
+    text-align: right;
+}
+
+@media screen and (max-width: 767px){
+    header#masthead nav#site-navigation {
+        text-align: left;
+        direction: ltr;
+    }
+    header#masthead nav#site-navigation button {
+        direction: ltr;
+    }
+    /* menus */
+    header#masthead nav#site-navigation div * {
+        direction: rtl;
+        text-align: right;
+    }
+}
+
+/* navbar site identity */
+header#masthead nav#site-navigation a#overview-navbar-site-logo * {
+    text-align: left;
+}
+
+nav#site-navigation div ul.nav-menu li ul.children, nav#site-navigation div ul.nav-menu li ul.sub-menu {
+    padding-right: 0;
+}
+
+.site-branding {
+    direction: rtl;
+    text-align: left;
+}
+
+.site-branding .site-title,
+.site-branding .site-description {
+    text-align: left;
+}
+
+@media screen and (max-width: 767px){
+    /* site branding */
+    .site-branding,
+    .site-branding .site-title,
+    .site-branding .site-description,
+    p.site-branding-description-p {
+        text-align: center;
+    }
+    p.site-branding-description-p {
+        margin: 40px 0 12px 0;
+    }
+}
+
+/* entries titles */
+.entry-title {
+    text-align: right;
+}
+
+header.entry-header.overview-standard-indexed-entry-header .overview-default-entry-title {
+    padding-right: 8px;
+}
+
+/* page titles */
+header.page-header h1.page-title {
+    padding-left: inherit;
+    padding-right: 30px;
+}
+
+/* content icons */
+#primary article i.fa-calendar, #primary article i.fa-folder-open, #primary article i.fa-tags {
+    margin-left: 18px;
+}
+
+/* navigation */
+div.nav-links {
+    direction: ltr;
+}
+
+
+/* OverView Display */
+div#overview-front-page-posts-section-container {
+    text-align: left;
+}
+
+div#overview-front-page-posts-section-metas {
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: right;
+}
+
+div#overview-front-page-posts-section-metas div i, div#overview-front-page-posts-section-metas div a i {
+    margin: 3px 12px 3px 3px;
+}
+
+div#overview-front-page-posts-section-content {
+    text-align: right;
+}
+
+.overview-front-page-display-navigation-mobile-container,
+.overview-front-page-display-navigation-container {
+    direction: ltr;
+}
+

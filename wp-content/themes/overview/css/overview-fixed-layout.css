@@ -1,0 +1,14 @@
+/* restrict full-width after 1600px */
+@media screen and (min-width: 1600px) {
+  div#primary.overview-sidebar-layout {
+    width: 980px;
+    max-width: 980px;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 1200px) {
+  div#primary.overview-full-layout {
+    width: 1150px;
+    max-width: 1150px;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=overview-fixed-layout.css.map */

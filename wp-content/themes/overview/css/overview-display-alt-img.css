@@ -1,0 +1,65 @@
+/* OverView SCSS setup
+_______________________________________ */
+/* VARIABLES */
+/* "Century Gothic",  "Avant Garde Gothic",  "Avant Garde",  "URW Gothic L",   helvetica,  sans-serif; */
+/* Iced Lake (default): rgba(76,118,201,1) , #4c76c9 */
+/*
+/* Amazon Rainforest: rgba(70,118,88,1) */
+/* Chessnuts Field: rgba(129,118,88,1) */
+/* Terracotta Road: rgba(173,118,60,1) */
+/* Japanese Maple Hill: rgba(191,58,63,1) */
+/* Sunset Desert: rgba(195,118,94,1) */
+/* Orchid Cliff: rgba(182,118,176,1) */
+/* Lavander Island: rgba(135,118,189,1) */
+/* Mariana Trench: rgba(69,82,131,1) */
+/* Countryside Oasis: rgba(79,97,36,1) */
+/* test sets: rgba(70,118,88,1), rgba(129,118,88,1), rgba(173,118,60,1), rgba(191,58,63,1), rgba(195,118,94,1), rgba(182,118,176,1), rgba(135,118,189,1) */
+/* more sets: rgba(69,82,131,1), rgba(79,97,36,1) */
+/* #cce2f7 */
+/* MIXINS */
+/* PREFIXES */
+/* animation */
+/* transform */
+/* border radius */
+/* transition */
+/* text shadow */
+/* box shadow */
+/* WordPress STRUCTURES */
+/* main layouts */
+/* standard post list attributes */
+/* standard post list featured img header */
+/* standard post list NO featured img header */
+/* standard post list content */
+/* standard posts format */
+/* standard posts format - no featured image */
+/* meta icons */
+/* post meta */
+/* post categories and tags */
+/* comments links */
+/* comments */
+/* WordPress content's elements styles */
+/* sidebar WordPress widgets */
+/* footer WordPress widgets */
+/* standard footer */
+/* buttons  */
+img#overview-front-page-posts-section-img {
+  -webkit-transform: translate(-35%, -50%) matrix3d(0.98, 0.01, 0, 0.0005, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -moz-transform: translate(-35%, -50%) matrix3d(0.98, 0.01, 0, 0.0005, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -ms-transform: translate(-35%, -50%) matrix3d(0.98, 0.01, 0, 0.0005, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -o-transform: translate(-35%, -50%) matrix3d(0.98, 0.01, 0, 0.0005, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform: translate(-35%, -50%) matrix3d(0.98, 0.01, 0, 0.0005, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  @media screen and (max-width: 767px) {
+    img#overview-front-page-posts-section-img {
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); } }
+
+header#masthead {
+  margin-bottom: 40px; }
+  @media screen and (max-width: 767px) {
+    header#masthead {
+      margin-bottom: 0; } }
+
+/*# sourceMappingURL=overview-display-alt-img.css.map */

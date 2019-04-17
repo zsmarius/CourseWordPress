@@ -1,0 +1,23 @@
+/* OverView site navigation */
+
+#masthead nav#site-navigation {
+    top: 32px;
+}
+
+@media screen and (max-width: 780px){
+    #masthead nav#site-navigation {
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+#masthead nav#site-navigation {
+        top: 46px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #masthead nav#site-navigation {
+        position: absolute;
+    }
+}
